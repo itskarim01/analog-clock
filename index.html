@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="./assets/time-regular-96.png">
+    <title>Date & Time</title>
+</head>
+<body>
+
+    <div id="intro">
+        <h1>Date and Time</h1>
+        <p style="font-size: 18px;">This website shows today's date and the local time in an analog clock</p>
+    </div>
+    
+    <div class="container">
+        <div class="clock">
+            <div class="hands" id="hour"><i></i></div>
+            <div class="hands" id="minute"><i></i></div>
+            <div class="hands" id="second"><i id="green-hand"></i></div>
+
+            <span style="--i: 1" ><b id="number">1</b></span>
+            <span style="--i: 2" ><b id="number">2</b></span>
+            <span style="--i: 3" ><b id="number">3</b></span>
+            <span style="--i: 4" ><b id="number">4</b></span>
+            <span style="--i: 5" ><b id="number">5</b></span>
+            <span style="--i: 6" ><b id="number">6</b></span>
+            <span style="--i: 7" ><b id="number">7</b></span>
+            <span style="--i: 8" ><b id="number">8</b></span>
+            <span style="--i: 9" ><b id="number">9</b></span>
+            <span style="--i: 10"><b id="number">10</b></span>
+            <span style="--i: 11"><b id="number">11</b></span>
+            <span style="--i: 12"><b id="number">12</b></span>
+        </div>
+    </div>
+    
+    <p id="date"></p>
+    <script src="script.js"></script>
+</body>
+</html>
