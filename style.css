@@ -26,10 +26,12 @@ body{
 #intro{
     margin-bottom: 25px;
     text-align: center;
+    width: 50%;
 }
 
 .container{
     position: relative;
+    margin: 0 auto;
 }
 
 .clock{
